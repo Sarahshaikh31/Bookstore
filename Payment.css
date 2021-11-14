@@ -1,0 +1,88 @@
+body{
+    
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("https://thumbnails.yayimages.com/neutral/0/859/859bc0.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    font-family: sans-serif;
+    color: aliceblue;
+    opacity: 1;
+  }
+
+h1{
+  font-size: 7.1vh;
+  text-align: center;
+}
+
+.container{
+  font-size: 3vh;
+  max-width: 142vh;
+  border: 0.25vh solid;
+  padding: 3.5vh;
+  margin: 4.5vh auto;
+}
+ 
+
+.container h1{
+  text-align: center;
+}
+
+.first-row{
+   display: flex;
+}
+
+.owner{
+  width: 100%;
+  margin-right: 40px;
+}
+
+.input-field{
+  border: 1px solid #999;
+}
+
+.input-field input{
+  width: 100%;
+  border:none;
+  outline: none;
+  padding: 10px;
+}
+
+.selection{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.selection select{
+  width: 200%;
+  padding: 10px 20px;
+  font-size: 20px;
+}
+
+a{
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  text-align: top;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding:15px;
+  font-size: 20px;
+}
+
+a:hover{
+  background-color: dodgerblue;
+}
+
+.cards img{
+  width: 100px;
+    display: fit;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+
+
+
+
+

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="Registration.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <H1>CREATE YOUR ACCOUNT</H1>
+    <form class="container" action="homepage.html" method="POST" target="_blank">
+
+        <section>
+            <h2>Your Details</h2>
+            <label for="cname"></label>
+            <input type="text" id="cname" name="cname" size="30" placeholder="Customer Name*" style="color: aliceblue;"
+                required>
+            <div class="date">
+                <label for="dob">Date of Birth:&ensp;</label>
+                <input type="date" id="dob" name="dob" placeholder="Date of Birth" style="color: aliceblue;">
+            </div>
+            <label for="gender" style="color: aliceblue;"></label>
+            <select id="gender" name="gender" style="color: aliceblue;">
+                <option style="color: black; ">Select Gender</option>
+                <option style="color: black; " value="M">Male</option>
+                <option style="color: black; " value="F">Female</option>
+            </select><br>
+            <label for="phone"></label>
+            <input type="tel" id="phone" name="phone" placeholder="Mobile No.*" style="color: aliceblue;" required>
+            <label for="address"></label>
+            <input type="text" id="address" name="address" size="200" placeholder="Address*" style="color: aliceblue;"
+                required>
+            <label for="email"></label>
+            <input type="email" id="email" name="email" placeholder="E-mail*" style="color: aliceblue;" required>
+            <label for="quali"></label>
+            <input type="text" id="quali" name="quali" size="30" placeholder="Qualification*" style="color: aliceblue;"
+                required>
+            <label for="uname"></label>
+            <input type="text" id="uname" name="uname" size="30" placeholder="User Name*" style="color: aliceblue;"
+                required>
+            <label for="password"></label>
+            <input type="text" id="password" name="password size" size="30" placeholder="Password*"
+                style="color: aliceblue;" required>
+            <label for="cpassword"></label>
+            <input type="text" id="cpassword" name="cpassword" size="30" placeholder="Confirm Password*"
+                style="color: aliceblue;" required>
+            <label for="myfile">Attach Photo:</label>
+
+            <input type="file" id="myfile" name="myfile">
+            <br>
+            <input type="submit" name="submit" value="Submit" id="sbmt">
+        </section>
+        </section>
+    </form>
+</body>
+
+</html>
